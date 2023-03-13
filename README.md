@@ -34,4 +34,5 @@ Total Profit
 - Create user in MySQL
 - adjust env variables in run.sh (DB connection) accordingly
 - Run ./install.sh
-- Run ./run.sh
+- Run ./run.sh (for short CSV)
+- Run ./run.sh -l (for long CSV, expected execution time: 1 minute or less)
