@@ -30,5 +30,8 @@ Total Profit
 
 ## Usage
 - Install Java 17
+- Install MySQL
+- Create user in MySQL
+- adjust env variables in run.sh (DB connection) accordingly
 - Run ./install.sh
 - Run ./run.sh
