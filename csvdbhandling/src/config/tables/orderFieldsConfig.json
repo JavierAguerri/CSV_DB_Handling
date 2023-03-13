@@ -1,0 +1,114 @@
+[
+	{
+		"name": "region",
+		"properties": {
+			"typeSQL": "VARCHAR(50)",
+			"stats": "true",
+			"nameCSV": "Region"
+		}
+	},
+	{
+		"name": "country",
+		"properties": {
+			"typeSQL": "VARCHAR(50)",
+			"stats": "true",
+			"nameCSV": "Country"
+		}
+	},
+	{
+		"name": "item_type",
+		"properties": {
+			"typeSQL": "CHAR(25)",
+			"stats": "true",
+			"nameCSV": "Item Type"
+		}
+	},
+	{
+		"name": "sales_channel",
+		"properties": {
+			"typeSQL": "CHAR(10)",
+			"stats": "true",
+			"nameCSV": "Sales Channel"
+		}
+	},
+	{
+		"name": "order_priority",
+		"properties": {
+			"typeSQL": "CHAR(1)",
+			"stats": "true",
+			"nameCSV": "Order Priority"
+		}
+	},
+	{
+		"name": "order_date",
+		"properties": {
+			"typeSQL": "DATE",
+			"stats": "false",
+			"nameCSV": "Order Date"
+		}
+	},
+	{
+		"name": "order_id",
+		"properties": {
+			"typeSQL": "INT",
+			"stats": "false",
+			"nameCSV": "Order Id"
+		}
+	},
+	{
+		"name": "ship_date",
+		"properties": {
+			"typeSQL": "DATE",
+			"stats": "false",
+			"nameCSV": "Ship Date"
+		}
+	},
+	{
+		"name": "units_sold",
+		"properties": {
+			"typeSQL": "MEDIUMINT",
+			"stats": "false",
+			"nameCSV": "Units Sold"
+		}
+	},
+	{
+		"name": "unit_price",
+		"properties": {
+			"typeSQL": "DECIMAL(6,2)",
+			"stats": "false",
+			"nameCSV": "Unit Price"
+		}
+	},
+	{
+		"name": "unit_cost",
+		"properties": {
+			"typeSQL": "DECIMAL(6,2)",
+			"stats": "false",
+			"nameCSV": "Unit Cost"
+		}
+	},
+	{
+		"name": "total_revenue",
+		"properties": {
+			"typeSQL": "DECIMAL(10,2)",
+			"stats": "false",
+			"nameCSV": "Total Revenue"
+		}
+	},
+	{
+		"name": "total_cost",
+		"properties": {
+			"typeSQL": "DECIMAL(10,2)",
+			"stats": "false",
+			"nameCSV": "Total Cost"
+		}
+	},
+	{
+		"name": "total_profit",
+		"properties": {
+			"typeSQL": "DECIMAL(10,2)",
+			"stats": "false",
+			"nameCSV": "Total Profit"
+		}
+	}
+]
